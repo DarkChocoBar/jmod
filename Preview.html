@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./styles/Preview.css">
+</head>
+<body>
+
+<h id = "Successful">...</h>
+<div id="P">
+	<h id = "PreviewHeader">Preview of JSONs</h>
+	<h id = "AirlineHeader">Edit JSONs for Airline: </h>
+	<p id="unitOne">...</p>
+	<p id="unitTwo">...</p>
+
+	<button id="Cancel"><span>Cancel</span></button>
+	<button id = "Revert"><span>Revert to Original File</span></button>
+	<!--<button id="SaveChanges"><span>Save Changes</span></button>-->
+	<button id="Done"><span>Done</span></button>
+
+	<div id = "a">
+		<div id = "json2"></div><br>
+	</div>
+	<div id = "b">
+		<div id = "json3"></div>
+	</div>
+
+
+	<div class="wrap1">
+        <iframe id ="frame2" class="frame"></iframe> <!--src="http://localhost:8080?airline=SunCountry&comp=Checkin&s=2" -->
+	</div>
+
+	<div class="wrap2">
+        <iframe id="frame3" class="frame"></iframe> <!--src="http://localhost:8080?airline=SunCountry&comp=Checkin&s=3"-->
+    </div>
+
+<!-- 	  	<details>
+				<summary>Click to open</summary>
+ 
+				<form id="jVal">
+						zInput: <input id="jVal_1" type="text"><br>
+						X: <input id="jVal_2" type="text"><br>
+						Y: <input id="jVal_3" type="text"><br>
+						align: <input id="jVal_4" type="text"><br>
+						type: <input id="jVal_5" type="text"><br>
+						startDelay: <input id="jVal_6" type="text"><br>
+						transitionInTime: <input id="jVal_7" type="text"><br>
+						displayTime: <input id="jVal_8" type="text"><br>
+						transitionOutTime: <input id="jVal_9" type="text"><br>
+						transitionInType: <input id="jVal_10" type="text"><br>
+						transitionOutType: <input id="jVal_11" type="text"><br>
+						text: <input id="jVal_12" type="text"><br>
+						font: <input id="jVal_13" type="text"><br>
+						fontWeight: <input id="jVal_14" type="text"><br>
+						fontStyle: <input id="jVal_15" type="text"><br>
+						fontSize: <input id="jVal_16" type="text"><br>
+						fontColor: <input id="jVal_17" type="text"><br>
+				</form>
+		</details> -->
+
+
+	<p id="colorhexDIV">#808080</p></div>
+	<p id='BackgroundColor'>Background Color</p>
+	<input type="color" id="html5colorpicker" value="#808080">
+</div>
+	<p id = 'confirm'>Would you like to save the changes?</p>
+	<button id="Yes"><span>Yes</span></button>
+	<button id="No"><span>No</span></button>
+
+<script src = "./scripts/Preview.js"></script>
+<script>
+//require('./scripts/Preview.js');
+//require('./constants')
+
+function writeToJson(whatever) {
+	// console.log(whatever);
+
+    // console.log(typeof whatever);
+
+    // temp variable splits the original name: zindex2_10   ->   {zindex2, 10}
+    var temp = whatever.id.split("_");
+
+    // set the element ID
+    var elementID = temp[1];
+
+    console.log("the element id is: " + elementID);
+
+    // console.log("id is: " + whatever.id);
+
+    var unitID = temp[0].charAt(temp[0].length - 1);
+    console.log("the unit id is: " + unitID);
+
+    var airlineName = localStorage.getItem("Airline Name");
+    // console.log("airline name is: " + airlineName);
+
+    var fileDir = __dirname + "\\WidgetImageGenerator\\json\\" + airlineName + "\\Checkin\\" + unitID + ".json";
+    console.log(fileDir);
+    // console.log("the current file path is: " + path);
+
+    // console.log("value is: " + whatever.value);
+
+    // console.log("name is: " + whatever.name);
+
+    // console.log("the current input value is: " + document.getElementById(whatever.id).value);
+
+    changeValue(whatever.name, whatever.value, unitID, elementID, fileDir);
+}
+ 
+function removeElement(info){ //need another parameter?
+    var temp = info.id.split("_");
+
+    // set the element ID
+    var elementID = temp[1];
+    console.log("User wants to delete element:" + temp[0] + " " +  temp[1]);
+    var test = localStorage.getItem(temp[0]);
+    //console.log(test + "\n");
+    var value = temp[1];
+    var a = JSON.parse(test);
+    //delete a.Elements[value - 1];
+    //delete a.Elements[value-1];
+    a.Elements.splice((value-1),1);
+  	console.log(temp[0]);
+    localStorage.setItem(temp[0], JSON.stringify(a));
+    var remove = temp[0].charAt(temp[0].length - 1);
+    reloadJSONS(remove);
+    //console.log(JSON.stringify(a));
+
+
+    //grabbing correct element
+
+    //don't think we have access to the json object on this side at the moment, need another parameter?
+    // get the json object and delete that element part [temp[1]] from it
+    //     delete may be as easy as:     delete b.Elements[temp[1]];
+    // store it back into local storage?
+    // write it to the file?
+}
+
+
+</script>
+
+</body>
+
+</html>

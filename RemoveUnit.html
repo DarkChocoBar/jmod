@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<link rel="stylesheet" type="text/css" href="./styles/RemoveUnit.css">
+
+</head>
+<body>
+
+	<h id = "Successful">...</h>
+	<div id="RU">
+		<h id = "RemoveUnitHeader">Remove Unit</h>
+		<p id = "Instruction1">Please select an unit to Remove</p>
+		<p id = "Instruction2">Then you can select "Remove Unit" Button to delete it</p>
+		<p id = "unit">...</p>
+		<p id = "unitList">...</p>
+
+		<select id = "list">
+			<option value = "-1">Please select an Unit
+			</option>
+		</select>
+
+		<p id ="Error">Airline not Found</p>
+		<p id = 'NoSelection'>Please select an airline</p>
+
+		<!--<button id="BrowseAirline" onclick="BrowseAirline()">Browse</button>-->
+		<button id="CancelButton"><span>Cancel</span></button>
+		<button id="RemoveUnit"><span>Remove Unit</span></button>
+	</div>
+	<script>require('./scripts/RemoveUnit.js')</script>
+
+</body>
+</html>

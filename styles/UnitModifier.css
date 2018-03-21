@@ -1,0 +1,193 @@
+body{
+  background-color: #c2fec1;
+}
+
+#Unit {
+  position: absolute;
+  top: calc(10%);
+  left: calc(40%);
+
+  font-size: 40px;
+}
+
+#Airlines {
+  position: absolute;
+  top: calc(30%);
+  left: calc(41%);
+  font-size: 30px;
+
+}
+
+ #CreateUnitButton {
+   position: absolute;
+  top: calc(80%);
+  left: calc(1%);
+
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#CreateUnitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#CreateUnitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#CreateUnitButton:hover span {
+  padding-right: 25px;
+}
+
+#CreateUnitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#EditUnitButton{
+  background-color: #1e90ff; /* blue */
+ position: absolute;
+  top: calc(80%);
+  left: calc(40%);
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#EditUnitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#EditUnitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#EditUnitButton:hover span {
+  padding-right: 25px;
+}
+
+#EditUnitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+
+#RemoveUnitButton{
+  background-color: #f44336; /* red */
+    
+  position: absolute;
+  top: calc(80%);
+  left: calc(80%);
+display: inline-block;
+  border-radius: 4px;
+  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#RemoveUnitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#RemoveUnitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#RemoveUnitButton:hover span {
+  padding-right: 25px;
+}
+
+#RemoveUnitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#BackToIndexpg {
+  position: absolute;
+  top: calc(10%);
+  left: calc(1%);
+
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #000088; /* Light blue */
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#BackToIndexpg span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#BackToIndexpg span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#BackToIndexpg:hover span {
+  padding-right: 25px;
+}
+
+#BackToIndexpg:hover span:after {
+  opacity: 1;
+  right: 0;
+}

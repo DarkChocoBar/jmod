@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/CreateAirline.css">
+</head>
+<body>
+
+	<h id = "Successful">...</h>
+	<div = id="CRA">
+		<h id = "CreateAirline">Create Airline</h>
+		<p id = "Instruction1">Please enter a name in the Airline Name textbox</p>
+		<p id = "Instruction2">And an airline code, then select Create Airline</p>
+		<p id = "Airline">List of all Airlines:</p>
+		<p id = "airlineList">...</p>
+
+		<div id="CreateAirlineText">
+		    <label for="txt_CreateAirline">Airline Name</label>
+		        <input id="txt_CreateAirline" type="text" />
+		        	<p id ="Error">Airline already exists</p>
+			<br />
+		</div>
+
+		<div id = "CodeCreateAirline">
+			<label for="CreateAirline_Code">Airline Code</label>
+		        <input id="CreateAirline_Code" type="text" />
+
+		</div>
+
+		<!--<button id="BrowseAirline" onclick="BrowseAirline()">Browse</button>-->
+		<button id="CancelButton"><span>Cancel</span></button>
+		<button id="CreateAirlineButton"><span>Create Airline</span></button>
+		<!--<input type='button' id='CreateAirlineButton' value='CreateAirline' onclick="CreateAirline(txt_CreateAirline)"/>-->
+	</div>
+	<script>require('./scripts/CreateAirline.js')</script>
+
+</body>
+</html>

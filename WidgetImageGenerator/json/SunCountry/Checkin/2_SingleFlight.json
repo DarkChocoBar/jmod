@@ -1,0 +1,176 @@
+{
+  "Sources": [
+    {
+      "id": 1,
+      "url": "/api/GoaaFid/GetXNextFlightsOfAirlineXWithCutoff/SCX/4/2/Departing"
+    }
+  ],
+
+  "Elements": [
+    {
+      "zIndex": 1,
+      "x": 200,
+      "y": 257,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "DEPARTURES",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 256,
+        "fontColor": "#e2bb22"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x": 212,
+      "y": 580,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "FLIGHT",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 84,
+        "fontColor": "#e2bb22"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x": 800,
+      "y": 580,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "TIME",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 84,
+        "fontColor": "#e2bb22"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x": 208,
+      "y": 660,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "flightNumberOnly",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 154,
+        "fontColor": "#ffffff"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x": 808,
+      "y": 660,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "shortenedTime",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 154,
+        "fontColor": "#ffffff"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x": 212,
+      "y": 1020,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "basicStatus",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 84,
+        "fontColor": "#e2bb22"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x": 208,
+      "y": 1120,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "lcDestination",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 154,
+        "fontColor": "#ffffff"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/EditUnit.css">
+</head>
+<body>
+
+	<h id = "Successful">...</h>
+	<div = id="EU">
+		<h id = "EditUnit">Edit Unit</h>
+		<p id = "Instruction1">Please select an Unit to edit</p>
+		<p id = "Instruction2"> Then select Create Unit</p>
+		<p id = "unit">...</p>
+		<p id = "unitList">...</p>
+
+		<select id = "list">
+			<option value = "-1">Please select an Unit
+			</option>
+		</select>
+
+		<p id ="Error">Unit not Found</p>
+		<p id = 'NoSelection'>Please select an Unit</p>
+		<!--<div id="EditUnitText">
+			<label for="txt_EditUnit">Unit Name</label><br>
+				<input id = "txt_EditUnit" type="text" />
+					<p id ="Error">Unit not found</p>
+			<br>
+		</div>-->
+
+		<!--<button id="BrowseAirline" onclick="BrowseAirline()">Browse</button>-->
+		<button id="CancelButton"><span>Cancel</span></button>
+		<button id="EditUnitButton"><span>Edit Unit</span></button>
+	</div>
+	<script>require('./scripts/EditUnit.js')</script>
+
+</body>
+</html>

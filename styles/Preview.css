@@ -1,0 +1,421 @@
+body{
+  background-color: #dbdbdb;
+}
+
+
+/*gets rid of that orange highlight color on button click*/
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+} 
+
+#a{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+#b{
+  position: absolute;
+  top: 100px;
+  left: 340px;
+  
+}
+
+#confirm{
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  font-size: 30px;
+}
+
+#Yes {
+  display: none;
+  background-color: #43a436; /* green */
+  position: absolute;
+  top: 500px;
+  left: 900px;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Yes span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#Yes span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#Yes:hover span {
+  padding-right: 25px;
+}
+
+#Yes:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#No {
+  display: none;
+  background-color: #f44336; /* red */
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#No span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#No span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#No:hover span {
+  padding-right: 25px;
+}
+
+#No:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#Cancel{
+  background-color: #f44336; /* red */
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Cancel span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#Cancel span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#Cancel:hover span {
+  padding-right: 25px;
+}
+
+#Cancel:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#Revert{
+  background-color: #f44336; /* red */
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Revert span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#Revert span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#Revert:hover span {
+  padding-right: 25px;
+}
+
+#Revert:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#PreviewHeader {
+  position: absolute;
+  top: 10px;
+  left: 800px;
+  font-size: 30px;
+}
+
+#AirlineHeader {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  font-size: 30px;
+}
+
+#unitOne{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+#unitTwo{
+  position: absolute;
+  top:60px;
+  left: 340px;
+}
+
+/*put json information into scroll boxes*/
+#json2{
+  border: 2px solid black;
+  height: 349px;
+  width: 349px;
+  max-height: 350px;
+  max-width: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  float: left;
+}
+
+/*put json information into scroll boxes*/
+#json3{
+  border: 2px solid black;
+  height: 349px;
+  width: 349px;
+  max-height: 350px;
+  max-width: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  float: left;
+}
+
+#text{
+  position: absolute;
+  top: calc(10%);
+  left: calc(5%); 
+}
+
+
+#Successful{
+  display: none;
+  position: absolute;
+  top: calc(50%);
+  left: calc(30%);
+  font-size: 40px;
+}
+
+#PreviewChanges{
+  background-color: #1e90ff; /* red */
+  position: absolute;
+  top: 550px;
+  left: 350px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  height: 57px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#PreviewChanges span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#PreviewChanges span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#PreviewChanges:hover span {
+  padding-right: 25px;
+}
+
+#PreviewChanges:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+
+#Done{
+  background-color: #43a436; /* red */
+    
+  position: absolute;
+  top: 700px;
+  left: 350px;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#Done span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#Done span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#Done:hover span {
+  padding-right: 25px;
+}
+
+#Done:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#html5colorpicker{
+ position: absolute;
+  top: 485px;
+  left: 995px;
+}
+
+#BackgroundColor{
+  position: absolute;
+  top: 475px;
+  left: 850px;
+}
+#colorhexDIV{
+  position: absolute;
+  top: 500px;
+  left: 880px;
+}
+
+.wrap1
+{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    width: 250px;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrap2
+{
+    position: absolute;
+    top: 80px;
+    left: 940px;
+    width: 250px;
+    height: 400px;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.frame
+{
+    width: 1200px;
+    height: 1920px;
+    border: 0;
+    -ms-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    transform: scale(0.2);
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.Work{
+  height:  20px;
+  width: 75px;
+  position: relative;
+  right: -5px;
+}

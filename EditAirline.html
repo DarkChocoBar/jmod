@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="./styles/EditAirline.css">
+
+</head>
+<body>
+
+<h id = "Successful">...</h>
+<div id = "EA">
+
+	<h id = "EditAirline">Edit Airline</h>
+	<p id = "Instruction1">Please select an airline to edit</p>
+	<p id = "Airline">List of all Airlines:</p>
+	<p id = "airlineList">...</p>
+
+	<select id = "list">
+			<option value = "-1">Please select an Airline
+			</option>
+		</select>
+
+	<p id ="Error">Airline not Found</p>
+	<p id = 'NoSelection'>Please select an airline</p>
+
+	<!--<button id="BrowseAirline" onclick="BrowseAirline()">Browse</button>-->
+	<button id="CancelButton"><span>Cancel</span></button>
+	<button id="EditButton"><span>Edit Airline Unit</span></button>
+</div>
+	<script>require('./scripts/EditAirline.js')</script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/RemoveAirline.css">
+</head>
+<body>
+
+	<h id = "Successful">...</h>
+	<div id ="RA">
+		<h id = "RemoveAirlineHeader">Remove Airline</h>
+		<p id = "Instruction1">Please select an airline then click remove button</p>
+		<p id = "Airline">List of all Airlines:</p>
+		<p id = "airlineList">...</p>
+		<select id = "list">
+			<option value = "-1">Please select an Airline
+			</option>
+		</select>
+
+		<p id ="Error">Airline not Found</p>
+		<p id = 'NoSelection'>Please select an airline</p>
+		<!--<div>
+		    <label for="txt_RemoveAirline" id="RemoveAirlineText">Airline Name To Remove</label>
+		        <input id="txt_RemoveAirline" type="text" />
+					        	
+			<br />
+		</div>-->
+
+		<button id="RemoveAirline"><span>RemoveAirline</span></button>
+		<button id="CancelButton"><span>Cancel</span></button>
+	</div>
+	<script>require('./scripts/RemoveAirline.js')</script>
+
+</body>
+</html>

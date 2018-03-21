@@ -1,0 +1,161 @@
+body{
+	background-color: #dbdbdb;
+}
+
+#CreateAirline{
+	position: absolute;
+	top: calc(10%);
+	left: calc(40%);
+	font-size: 40px;
+}
+#Instruction1{
+	position: absolute;
+	top: calc(20%);
+	left: calc(33%);
+	font-size: 30px;
+}
+#Instruction2{
+	position: absolute;
+	top: calc(30%);
+	left: calc(33%);
+	font-size: 30px;
+}
+
+#Successful{
+  display: none;
+  position: absolute;
+  top: calc(50%);
+  left: calc(30%);
+  font-size: 40px;
+}
+
+#CreateAirlineText{
+	position: absolute;
+	top: calc(80%);
+	left: calc(40%);
+	font-size: 20px;
+}
+#CodeCreateAirline{
+  position: absolute;
+  top: calc(90%);
+  left: calc(40%);
+  font-size: 20px;
+}
+#Airline{
+  position: absolute;
+  top: calc(40%);
+  left: calc(30%);
+  font-size: 30px;
+}
+
+#airlineList {
+border: 2px solid black;
+  position: absolute;
+  top:calc(40%);
+  left: calc(50%);
+  font-size: 30px;
+  max-width: 200px;
+  max-height: 250px;/*
+  height: 400px;
+  width: 1000px;*/
+  overflow: scroll;
+  overflow-x: hidden;
+  /*overflow: hidden;*/
+  float:left;
+}
+
+#Error{
+  color: #ff0000;
+  display: none;
+}
+
+#CancelButton{
+	position: absolute;
+	top: calc(80%);
+	left: calc(10%);
+	background-color: #f44336; /* red */
+     
+  display: inline-block;
+  border-radius: 4px;
+  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#CancelButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#CancelButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#CancelButton:hover span {
+  padding-right: 25px;
+}
+
+#CancelButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#CreateAirlineButton{
+	background-color: #4CAF50; /* Green */
+    
+  position: absolute;
+	top: calc(80%);
+	left: calc(80%);
+  display: inline-block;
+  border-radius: 4px;
+  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#CreateAirlineButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#CreateAirlineButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#CreateAirlineButton:hover span {
+  padding-right: 25px;
+}
+
+#CreateAirlineButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

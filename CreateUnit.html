@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/CreateUnit.css">
+</head>
+
+<body>
+
+	<h id = "Successful">...</h>
+	<div id="CU">
+		<h id="Unit">Create Unit</h>
+		<p id = "Instruction1">Please enter just the name in the Unit Name textbox (no extension)</p>
+		<p id = "Instruction2"> Then select Create Unit</p>
+		<p id = "unit">...</p>
+		<p id = "unitList">...</p>
+		<!-- Needs to be something here for the "Benji Airlines"  -->
+
+		<div id="CreateUnitText">
+			<label for="txt_CreateUnit">Unit Name</label><br />
+				<input id = "txt_CreateUnit" type="text" >
+					<p id ="Error">Unit already exists</p>
+			<br />
+		</div>
+
+		<button id="CancelButton"><span>Cancel</span></button>
+		<button id ="CreateUnitButton"><span>Create Unit</span></button>
+	</div>
+	<script>require('./scripts/CreateUnit.js')</script>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+body{
+  background-color: #dbdbdb;
+}
+
+#Unit{
+  position: absolute;
+  top: calc(10%);
+  left: calc(40%);
+  font-size: 30px;
+}
+
+#CreateUnitText{
+  position: absolute;
+  top: calc(60%);
+  left: calc(11%);
+  font-size: 20px;
+}
+#Instruction1{
+  position: absolute;
+  top: calc(15%);
+  left: calc(33%);
+  font-size: 20px;
+}
+#Instruction2{
+  position: absolute;
+  top: calc(20%);
+  left: calc(37%);
+  font-size: 20px;
+}
+
+#Successful{
+  display: none;
+  position: absolute;
+  top: calc(50%);
+  left: calc(30%);
+  font-size: 40px;
+}
+
+#unit{
+  position: absolute;
+  top: calc(25%);
+  left: calc(40%);
+  font-size: 30px;
+}
+#unitList{
+  position: absolute;
+  top: calc(30%);
+  left: calc(40%);
+  font-size: 30px;
+}
+
+#CreateUnitText{
+  position: absolute;
+  top: calc(60%);
+  left: calc(40%);
+  font-size: 20px;
+}
+
+#Error{
+   position: absolute;
+  top: calc(60%);
+  left: calc(50%);
+  color: #ff0000;
+  display: none;
+}
+
+#CancelButton{
+  position: absolute;
+  top: calc(80%);
+  left: calc(10%);
+  background-color: #f44336; /* red */
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#CancelButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#CancelButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#CancelButton:hover span {
+  padding-right: 25px;
+}
+
+#CancelButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#CreateUnitButton{
+  background-color: #4CAF50; /* Green */
+    
+  position: absolute;
+  top: calc(80%);
+  left: calc(80%);
+  display: inline-block;
+  border-radius: 4px;
+  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#CreateUnitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#CreateUnitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#CreateUnitButton:hover span {
+  padding-right: 25px;
+}
+
+#CreateUnitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

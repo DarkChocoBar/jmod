@@ -1,0 +1,402 @@
+{
+  "Sources": [
+    {
+      "id": 1,
+      "url": "/api/GoaaFid/GetXNextFlightsOfAirlineXWithCutoff/AVA/4/2/Departing"
+    }
+  ],
+
+  "Elements": [
+
+  	{
+		"zIndex": 1,
+		"x": -150,
+		"y": 540,
+		"align": "left",
+		"type": "text",
+		"startDelay": 0,
+		"transitionInTime": 1000,
+		"displayTime": 178000,
+		"transitionOutTime": 1000,
+		"transitionInType": "fade2",
+		"transitionOutType": "fade2",
+		"textcontent": {
+			"text": "FLIGHT",
+			"font": "FrutigerLTStdLight",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontSize": 75,
+			"fontColor": "#ffffff"
+		}
+	},  
+    {
+      "zIndex": 1,
+      "x":  225,
+      "y": 540,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "GATE",
+        "font": "FrutigerLTStdLight",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 75,
+        "fontColor": "#ffffff"
+      }
+    },
+    {
+      "zIndex": 1,
+      "x": 590,
+      "y": 540,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "TIME",
+        "font": "FrutigerLTStdLight",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 75,
+        "fontColor": "#ffffff"
+      }
+	},
+	
+	
+	
+	
+	
+
+
+	{
+		"zIndex": 1,
+		"x": -150,
+		"y": 680,
+		"align": "left",
+		"type": "text",
+		"startDelay": 0,
+		"transitionInTime": 1000,
+		"displayTime": 178000,
+		"transitionOutTime": 1000,
+		"transitionInType": "fade2",
+		"transitionOutType": "fade2",
+		"textcontent": {
+			"sourceId": 1,
+			"formattingFunction": "flightNumberOnly",
+			"index": 0,
+			"text": "",
+			"font": "FrutigerLTStdRoman",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontSize": 61,
+			"fontColor": "#ffffff"
+		}
+	},
+    {
+      "zIndex": 1,
+      "x":  225,
+      "y": 680,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "parseGate",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+    {
+      "zIndex": 1,
+      "x":  570,
+      "y": 680,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "shortenedTime",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+
+	
+	
+	
+	
+	
+	
+	
+	{
+		"zIndex": 1,
+		"x": -150,
+		"y": 844,
+		"align": "left",
+		"type": "text",
+		"startDelay": 0,
+		"transitionInTime": 1000,
+		"displayTime": 178000,
+		"transitionOutTime": 1000,
+		"transitionInType": "fade2",
+		"transitionOutType": "fade2",
+		"textcontent": {
+			"sourceId": 1,
+			"formattingFunction": "flightNumberOnly",
+			"index": 1,
+			"text": "",
+			"font": "FrutigerLTStdRoman",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontSize": 61,
+			"fontColor": "#ffffff"
+		}
+	},
+    {
+      "zIndex": 1,
+      "x":  225,
+      "y": 844,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "parseGate",
+        "index": 1,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+    {
+      "zIndex": 1,
+      "x":  570,
+      "y": 844,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "shortenedTime",
+        "index": 1,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	{
+		"zIndex": 1,
+		"x": -150,
+		"y": 1008,
+		"align": "left",
+		"type": "text",
+		"startDelay": 0,
+		"transitionInTime": 1000,
+		"displayTime": 178000,
+		"transitionOutTime": 1000,
+		"transitionInType": "fade2",
+		"transitionOutType": "fade2",
+		"textcontent": {
+			"sourceId": 1,
+			"formattingFunction": "flightNumberOnly",
+			"index": 2,
+			"text": "",
+			"font": "FrutigerLTStdRoman",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontSize": 61,
+			"fontColor": "#ffffff"
+		}
+	},
+    {
+      "zIndex": 1,
+      "x":  225,
+      "y": 1008,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "parseGate",
+        "index": 2,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+
+    {
+      "zIndex": 1,
+      "x":  570,
+      "y": 1008,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "shortenedTime",
+        "index": 2,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		"zIndex": 1,
+		"x": -150,
+		"y": 1172,
+		"align": "left",
+		"type": "text",
+		"startDelay": 0,
+		"transitionInTime": 1000,
+		"displayTime": 178000,
+		"transitionOutTime": 1000,
+		"transitionInType": "fade2",
+		"transitionOutType": "fade2",
+		"textcontent": {
+			"sourceId": 1,
+			"formattingFunction": "flightNumberOnly",
+			"index": 3,
+			"text": "",
+			"font": "FrutigerLTStdRoman",
+			"fontWeight": "normal",
+			"fontStyle": "normal",
+			"fontSize": 61,
+			"fontColor": "#ffffff"
+		}
+	},
+    {
+      "zIndex": 1,
+      "x":  225,
+      "y": 1172,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "parseGate",
+        "index": 3,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    },
+    {
+      "zIndex": 1,
+      "x":  570,
+      "y": 1172,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "shortenedTime",
+        "index": 3,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#ffffff"
+      }
+    }
+  ]
+}

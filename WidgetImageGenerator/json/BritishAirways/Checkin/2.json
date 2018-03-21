@@ -1,0 +1,408 @@
+{
+  "Sources": [
+    {
+      "id": 1,
+      "url": "/api/GoaaFid/GetXNextFlightsOfAirlineXWithCutoff/BAW/4/2/Departing"
+    }
+  ],
+
+  "Elements": [
+    {
+      "zIndex": 1,
+      "x": -6,
+      "y": 257,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "Departures",
+        "font": "FrutigerLTStdBold",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 160,
+        "fontColor": "#FFFFFF"
+      }
+    },
+    {
+      "zIndex": 1,
+      "x": 0,
+      "y": 540,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "Destination",
+        "font": "FrutigerLTStdLight",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 71,
+        "fontColor": "#FFFFFF"
+      }
+    },
+    {
+      "zIndex": 1,
+      "x": 550,
+      "y": 540,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "Flight",
+        "font": "FrutigerLTStdLight",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 71,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 930,
+      "y": 540,
+      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "text": "Status",
+        "font": "FrutigerLTStdLight",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 71,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "zIndex": 1,
+      "x": 0,
+      "y": 680,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "lcDestination",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 550,
+      "y": 680,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "flightNumberOnly",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 930,
+      "y": 680,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "basicStatus",
+        "index": 0,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+
+
+	
+	
+
+
+
+
+	
+    {
+      "zIndex": 1,
+      "x": 0,
+      "y": 844,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "lcDestination",
+        "index": 1,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 550,
+      "y": 844,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "flightNumberOnly",
+        "index": 1,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+		{
+      "zIndex": 1,
+      "x": 930,
+      "y": 844,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "basicStatus",
+        "index": 1,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "zIndex": 1,
+      "x": 0,
+      "y": 1008,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "lcDestination",
+        "index": 2,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 550,
+      "y": 1008,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "flightNumberOnly",
+        "index": 2,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 930,
+      "y": 1008,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "basicStatus",
+        "index": 2,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "zIndex": 1,
+      "x": 0,
+      "y": 1172,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "lcDestination",
+        "index": 3,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+	{
+      "zIndex": 1,
+      "x": 550,
+      "y": 1172,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "flightNumberOnly",
+        "index": 3,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    },
+		{
+      "zIndex": 1,
+      "x": 930,
+      "y": 1172,      "align": "left",
+      "type": "text",
+      "startDelay": 0,
+      "transitionInTime": 1000,
+      "displayTime": 178000,
+      "transitionOutTime": 1000,
+      "transitionInType": "fade2",
+      "transitionOutType": "fade2",
+      "textcontent": {
+        "sourceId": 1,
+        "formattingFunction": "basicStatus",
+        "index": 3,
+        "text": "",
+        "font": "FrutigerLTStdRoman",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "fontSize": 61,
+        "fontColor": "#FFFFFF"
+      }
+    }
+  ]
+}

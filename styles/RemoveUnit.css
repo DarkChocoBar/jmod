@@ -1,0 +1,160 @@
+body{
+  background-color: #c9ebff;
+}
+
+#RemoveUnitHeader{
+  position: absolute;
+  top: calc(10%);
+  left: calc(40%);
+  font-size: 30px;
+}
+#Instruction1{
+  position: absolute;
+  top: calc(15%);
+  left: calc(35%);
+  font-size: 20px;
+}
+#Instruction2{
+  position: absolute;
+  top: calc(20%);
+  left: calc(25%);
+  font-size: 20px;
+}
+
+#RemoveUnitText{
+  position: absolute;
+  top: calc(60%);
+  left: calc(40%);
+  font-size: 20px;
+}
+
+#Successful{
+  display: none;
+  position: absolute;
+  top: calc(50%);
+  left: calc(30%);
+  font-size: 40px;
+}
+
+#unit{
+  position: absolute;
+  top: calc(40%);
+  left: calc(30%);
+  font-size: 30px;
+}
+#unitList{
+  position: absolute;
+  top: calc(45%);
+  left: calc(35%);
+  font-size: 30px;
+}
+#list {
+  position: absolute;
+  top: calc(50%);
+  left: calc(35%);
+  display: none;
+}
+
+#Error{
+  display: none;
+  position: absolute;
+  top: calc(50%);
+  left: calc(35%);
+}
+
+#NoSelection{
+  display: none;
+  position: absolute;
+  top: calc(50%);
+  left: calc(50%);
+}
+
+#CancelButton{
+  position: absolute;
+  top: calc(80%);
+  left: calc(2%);
+  background-color: #f44336; /* red */
+     
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#CancelButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#CancelButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#CancelButton:hover span {
+  padding-right: 25px;
+}
+
+#CancelButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#RemoveUnit{
+  background-color: #4CAF50; /* Green */
+    
+  position: absolute;
+  top: calc(80%);
+  left: calc(80%);
+  display: inline-block;
+  border-radius: 4px;
+  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  width: 260px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#RemoveUnit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#RemoveUnit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#RemoveUnit:hover span {
+  padding-right: 25px;
+}
+
+#RemoveUnit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
